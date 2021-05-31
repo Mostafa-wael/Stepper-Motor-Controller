@@ -19,10 +19,10 @@ int Direction = 0; // decide the direction of the motor from the switch (initial
 unsigned int stepsToMove;
 //*********************************************
 // related to the motor's movement
-#define MOTOR_PIN_1 10
-#define MOTOR_PIN_2 11
-#define MOTOR_PIN_3 12
-#define MOTOR_PIN_4 13
+#define MOTOR_PIN_1 10 // A+
+#define MOTOR_PIN_2 11 // A-
+#define MOTOR_PIN_3 12 // B+
+#define MOTOR_PIN_4 13 // B-
 #define stepsPerRevolution 200  // total number of steps the motor can due per revolution (motor charactristic)
 int currentStep = 0;            // motor's current step (position)
 unsigned long stepDelay;        // delay between steps
